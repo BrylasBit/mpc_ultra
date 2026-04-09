@@ -1,0 +1,143 @@
+╔════════════════════════════════════════════════════════════════╗
+║         BRYŁA$ MPC ULTRA v8 - QUICK START GUIDE               ║
+╚════════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 1: OTWÓRZ PLIK                                            │
+└────────────────────────────────────────────────────────────────┘
+  • Kliknij: mpcbrylas-v7-fixed.html
+  • Otworzy się w Chrome/Edge
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 2: WGRAJ SAMPLE (WAŻNE!)                                  │
+└────────────────────────────────────────────────────────────────┘
+  
+  🎵 WYMAGANE PLIKI:
+  
+    KICKS:    WKK1.wav, WKK2.wav, WKK3.wav, WKK4.wav
+    SNARES:   WSP1.wav, WSP2.wav, WSP3.wav, WSP5.wav
+    HI-HATS:  WHT1.wav, WHT2.wav, WHT3.wav, WHT4.wav, WHT5.wav
+  
+  📂 JAK WGRAĆ:
+  
+    Metoda A (najszybsza):
+      1. Zaznacz wszystkie pliki WAV
+      2. Przeciągnij na "DRAG WAV FILES HERE"
+      3. Done! ✓
+    
+    Metoda B (direct to pad):
+      1. WKK1.wav → przeciągnij na PAD 01
+      2. WKK2.wav → przeciągnij na PAD 02
+      3. ...continue...
+    
+    Metoda C (click assign):
+      1. Wgraj sample do Sample Manager
+      2. Kliknij sample → kliknij pad
+      3. Done! ✓
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 3: TESTUJ                                                 │
+└────────────────────────────────────────────────────────────────┘
+  
+  KEYBOARD CONTROLS:
+  
+    1-8        → Pads (kicks, snares, hats)
+    Z-M        → Piano lower octave
+    Q-U        → Piano upper octave
+    SPACE      → Play/Pause
+    M          → Metronome ON/OFF
+    ESC        → PANIC (kill all voices)
+  
+  
+  QUICK TEST:
+    • Naciśnij "1" → powinien grać kick (jeśli wgrałeś sample)
+    • Naciśnij "Q" → powinien grać synth (Moog C note)
+    • Naciśnij SPACE → sequencer play
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ STEP 4: MIDI (opcjonalnie)                                     │
+└────────────────────────────────────────────────────────────────┘
+  
+  1. Podłącz Launchkey Mini MK2
+  2. Kliknij "MIDI" button (top right)
+  3. Pads → MPC pads
+  4. Keys → Synth
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ ⚠ TROUBLESHOOTING                                              │
+└────────────────────────────────────────────────────────────────┘
+  
+  Problem: Dźwięki się zapętlają
+    → Naciśnij ESC (panic button)
+    → Odśwież stronę (F5)
+  
+  Problem: Sample nie grają
+    → Sprawdź czy wgrałeś WAV files
+    → Kliknij sample → kliknij pad (assign)
+  
+  Problem: Keyboard nie działa
+    → Kliknij poza INPUT field
+    → Sprawdź czy nie masz focus w text input
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ 🎹 PODSTAWOWE UŻYCIE                                           │
+└────────────────────────────────────────────────────────────────┘
+  
+  TWORZENIE BEATU:
+  
+    1. Wybierz KIT (808, 909, TRAP, etc.)
+    2. Kliknij SEQUENCER steps:
+       • Row 1 (KICK)   → kliknij step 1, 5, 9, 13
+       • Row 2 (SNARE)  → kliknij step 5, 13
+       • Row 3 (HI-HAT) → kliknij co drugi step
+    3. Naciśnij SPACE → play!
+    4. Adjust BPM slider → zmień tempo
+  
+  UŻYWANIE SYNTH:
+  
+    1. Wybierz SYNTH (Moog, Juno, DX7, etc.)
+    2. Naciśnij Z-M lub Q-U na klawiaturze
+    3. Adjust ATK, DEC, SUS, REL dla envelope
+    4. Adjust CUT, RES dla filtra
+  
+  SMART RANDOM:
+  
+    1. Wybierz KIT
+    2. Kliknij "RND" button
+    3. Automatic pattern generated! ✓
+
+
+┌────────────────────────────────────────────────────────────────┐
+│ 📊 ZAAWANSOWANE                                                │
+└────────────────────────────────────────────────────────────────┘
+  
+  MULTIPLE BEATS:
+    • BEAT A/B/C buttons → 3 patterns per kit
+    
+  PAD BANKS:
+    • BANK A/B/C/D buttons → 4 banks x 16 pads = 64 pads
+  
+  LOOPS:
+    • BOOM BAP (90 BPM)
+    • TRAP (140 BPM)
+    • HOUSE (126 BPM)
+    • etc. → auto BPM + pattern
+  
+  AI GENERATOR:
+    • Type: "dark trap 140bpm"
+    • Click GENERATE
+    • AI creates beat! 🤖
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  READY TO GO! Naciśnij 1-8 żeby zacząć grać! 🎵               ║
+╚════════════════════════════════════════════════════════════════╝
+
+Version: v7
+Updated: 01.04.2026
+
