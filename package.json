@@ -1,0 +1,53 @@
+{
+  "name": "mpc_ultra",
+  "version": "8.0.0",
+  "description": "Professional browser-based MPC music production controller with MIDI support and Web Audio API",
+  "author": {
+    "name": "BrylasBit",
+    "url": "https://github.com/BrylasBit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrylasBit/mpc_ultra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrylasBit/mpc_ultra/issues"
+  },
+  "homepage": "https://github.com/BrylasBit/mpc_ultra",
+  "license": "MIT",
+  "keywords": [
+    "mpc",
+    "beat-maker",
+    "sequencer",
+    "drum-machine",
+    "music-production",
+    "web-audio",
+    "web-midi",
+    "music-software",
+    "web-app"
+  ],
+  "engines": {
+    "browser": "Chrome >= 25, Firefox >= 25, Safari >= 14, Edge >= 79"
+  },
+  "scripts": {
+    "start": "open index.html || xdg-open index.html || start index.html",
+    "serve": "npx http-server -o -p 8000",
+    "test": "echo \"See CONTRIBUTING.md for testing checklist\"",
+    "build": "echo \"No build step required - single HTML file\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  },
+  "directories": {
+    "doc": "."
+  },
+  "files": [
+    "index.html",
+    "README.md",
+    "LICENSE",
+    "QUICK-START",
+    "SETUP-PL.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md"
+  ]
+}

@@ -3,7 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bryła$ MPC ULTRA</title>
+<meta name="description" content="MPC ULTRA v8 - Professional browser-based music production controller. Create beats with drum sequencer, synth, MIDI support, and drag-drop sample loading.">
+<meta name="keywords" content="MPC, music production, beat maker, sequencer, drum machine, web audio, MIDI controller, music software">
+<meta name="author" content="BrylasBit">
+<meta name="theme-color" content="#0f1115">
+<meta property="og:title" content="MPC ULTRA v8 - Professional Beat Maker">
+<meta property="og:description" content="Create professional beats in your browser with full MIDI support and sample loading">
+<meta property="og:type" content="website">
+<title>MPC ULTRA v8 - Professional Browser-Based Beat Maker</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
@@ -20,7 +27,7 @@ body{font-family:var(--f3);background:var(--bg);color:var(--text);min-height:100
 /* TOP */
 .topbar{background:linear-gradient(90deg,#0d0f13,#181c24,#0d0f13);border-bottom:2px solid #0a0c10;padding:10px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .brand{display:flex;flex-direction:column;gap:0;flex-shrink:0}
-.brand-main{font-family:var(--f1);font-size:18px;font-weight:900;letter-spacing:.06em;background:linear-gradient(90deg,#ff6a00,#ffb300,#ff3c00);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+.brand-main{font-family:var(--f1);font-size:18px;font-weight:900;letter-spacing:.06em;background:linear-gradient(90deg,#ff6a00,#ffb300,#ff3c00);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
 .brand-sub{font-family:var(--f1);font-size:7px;letter-spacing:.35em;color:var(--muted);margin-top:1px}
 .lcd{background:var(--lcd);border:2px solid #0a0a0a;border-radius:5px;padding:5px 12px;flex:1;min-width:160px;box-shadow:inset 0 2px 8px #000,0 0 10px #39ff1410}
 .lcd1{font-family:var(--f2);font-size:13px;color:var(--lcdt);letter-spacing:.04em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -62,7 +69,7 @@ body{font-family:var(--f3);background:var(--bg);color:var(--text);min-height:100
 .kw{background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:5px 6px;text-align:center;transition:border-color .2s}
 .kw.mf{border-color:var(--acc2)}
 .klbl{font-family:var(--f1);font-size:6px;letter-spacing:.1em;color:var(--muted)}
-.ksl{-webkit-appearance:none;width:100%;height:2px;background:var(--border);border-radius:1px;outline:none;margin:3px 0}
+.ksl{appearance:none;-webkit-appearance:none;width:100%;height:2px;background:var(--border);border-radius:1px;outline:none;margin:3px 0}
 .ksl::-webkit-slider-thumb{-webkit-appearance:none;width:11px;height:11px;background:var(--acc);border-radius:50%;cursor:pointer;border:1px solid #0003}
 .kval{font-family:var(--f2);font-size:10px;color:var(--acc2)}
 .beat-row{display:flex;gap:4px;margin-top:6px;flex-wrap:wrap}

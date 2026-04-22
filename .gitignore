@@ -1,0 +1,32 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.bak
+
+# Node (if ever used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Audio files (optional - if samples shouldn't be tracked)
+# *.wav
+# *.mp3
+# *.ogg
+
+# Environment
+.env
+.env.local
+
+# Build/dist
+dist/
+build/
+*.min.js
+*.min.css
