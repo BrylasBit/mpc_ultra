@@ -1,4 +1,22 @@
-# 🎹 MPC ULTRA v8
+# 🎹 Bryła$ MPC ULTRA v8.3 - Web-Based Creative Engine
+
+## 🚀 Overview
+A high-performance, mobile-responsive Digital Audio Workstation (DAW) built with vanilla JavaScript and the Web Audio API. This project bridges the gap between classic MPC hardware workflow and modern web capabilities.
+
+## 🛠 Technical Highlights
+- **Real-time DSP:** Custom implementation of ADSR envelopes, filters (Low-pass/High-pass), and spatial effects (Reverb/Delay).
+- **Advanced Buffer Management:** Efficient loading and triggering of high-fidelity audio samples with near-zero latency.
+- **Dynamic Visualization:** Real-time waveform rendering using HTML5 Canvas API.
+- **Mobile-First Design:** Fully responsive UI with custom touch-event handling for musical performance.
+
+## 🤖 The AI & Industrial Connection
+Inspired by 10 years of experience in high-stakes industrial environments (Pharmaceutical Manufacturing / Werum PAS-X), this project applies the principles of **Data Integrity** and **System Precision** to creative software. 
+*Planned Update:* Integration of a Neural Network-based "Groove Suggestion" engine using Magenta.js.
+
+## 💻 Tech Stack
+- **Languages:** JavaScript (ES6+), HTML5, CSS3
+- **APIs:** Web Audio API, Canvas API
+- **Deployment:** Netlify
 
 > **Professional Browser-Based MPC Music Production Controller**
 
